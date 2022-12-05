@@ -124,9 +124,11 @@ header nav ul li a{
 .main-image {
 	height: auto;
 	/* float: left; */
+	
 }
 .main-image img {
 	width: 100%;
+	border-top: 3px solid #77a466;
 	border-bottom: 3px solid #77a466;
 }
 
