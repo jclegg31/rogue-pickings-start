@@ -1,6 +1,6 @@
 html{
 	font-size: 16px;
-	border: 1px solid purple;
+	
 }
 
 body {
@@ -45,26 +45,29 @@ h3 {
 p {
 	font-size: .875em;
 	line-height: 1.313em;
-    padding: 0 30px;
+    /* padding: 0 30px; */
 }
 
 /*The widths are in a percentage!*/
 header {
 	/* height: 110px; */
-	border-bottom: 3px solid #77a466;
+	
 	margin: 0 auto;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-flow: row wrap;
-
+	
 }
 
 header h1 {
 	/* float: left; */
+	border-bottom: 3px solid #77a466;
 	margin: 0;
-	padding: 38px 0;
-	/* border-bottom: 3px solid #77a466; */
+	padding: 38px 0 30px 0;
+	display: flex;
+	justify-content: center;
+	width: 100%;
 }
 header h1 span {
 	color: #77a466;
@@ -72,22 +75,33 @@ header h1 span {
 
 header nav {
 	/* float: right; */
-	padding: 46px 0;
+	padding: 15px 0;
+	
 }
 header nav ul {
 	margin: 0;
 	padding: 0;
+	
 }
 header nav ul li {
 	text-transform: uppercase;
 	font-weight: 700;
 	font-size: .875em;
 	padding: 0 10px;
-	display: inline;
+	
+	display: flex;
+	flex-direction: column;
+	
+	align-items: center;
+	width: 100%;
+	padding: 20px 0 ;
+	
 }
 header nav ul li a{
 	text-decoration: none;
 	color:#77a466;
+	
+	
 }
 
 /*The widths are in a percentage!*/
@@ -95,11 +109,17 @@ header nav ul li a{
 .bottom-section {
 	margin: 0 auto;
 	/* clear: both; */
+	width: 100%;
+
+	
+}
+
+.bottom-section{
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	flex-flow: row wrap;
-		
+	
 }
 
 .main-image {
@@ -129,10 +149,11 @@ header nav ul li a{
 .section-one,
 .section-two,
 .section-three {
-	width: 33%;
+	width: 100%;
 	height: auto;
 	/* float: left; */
 	border-top: 1px solid #eee;
+
 }
 
 .section-one h3 {
@@ -140,13 +161,13 @@ header nav ul li a{
 }
 
 .section-two {
-	border-left: 1px solid #eee;
-	border-right: 1px solid #eee;
+	/* border-left: 1px solid #eee;
+	border-right: 1px solid #eee; */
 }
 
 .section-two h3,
 .section-three h3 {
-	padding: 10px 30px;
+	/* padding: 10px 30px; */
 }
 
 .menu {
